@@ -1,0 +1,15 @@
+/Users/aakashgangwar/Desktop/HelloWorld/obj/Debug/net10.0/HelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aakashgangwar/Desktop/HelloWorld/obj/Debug/net10.0/HelloWorld.AssemblyInfoInputs.cache
+/Users/aakashgangwar/Desktop/HelloWorld/obj/Debug/net10.0/HelloWorld.AssemblyInfo.cs
+/Users/aakashgangwar/Desktop/HelloWorld/obj/Debug/net10.0/HelloWorld.csproj.CoreCompileInputs.cache
+/Users/aakashgangwar/Desktop/HelloWorld/obj/Debug/net10.0/HelloWorld.sourcelink.json
+/Users/aakashgangwar/Desktop/HelloWorld/bin/Debug/net10.0/HelloWorld
+/Users/aakashgangwar/Desktop/HelloWorld/bin/Debug/net10.0/HelloWorld.deps.json
+/Users/aakashgangwar/Desktop/HelloWorld/bin/Debug/net10.0/HelloWorld.runtimeconfig.json
+/Users/aakashgangwar/Desktop/HelloWorld/bin/Debug/net10.0/HelloWorld.dll
+/Users/aakashgangwar/Desktop/HelloWorld/bin/Debug/net10.0/HelloWorld.pdb
+/Users/aakashgangwar/Desktop/HelloWorld/obj/Debug/net10.0/HelloWorld.dll
+/Users/aakashgangwar/Desktop/HelloWorld/obj/Debug/net10.0/refint/HelloWorld.dll
+/Users/aakashgangwar/Desktop/HelloWorld/obj/Debug/net10.0/HelloWorld.pdb
+/Users/aakashgangwar/Desktop/HelloWorld/obj/Debug/net10.0/HelloWorld.genruntimeconfig.cache
+/Users/aakashgangwar/Desktop/HelloWorld/obj/Debug/net10.0/ref/HelloWorld.dll
