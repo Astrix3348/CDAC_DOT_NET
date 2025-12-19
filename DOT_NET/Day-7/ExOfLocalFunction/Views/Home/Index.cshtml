@@ -1,0 +1,55 @@
+﻿@using ExOfLocalFunction.Models
+
+@{
+    string appTitle = "New App";
+    List<Person> people = new List<Person>()
+    {
+        new Person() { Name = "John", DOB = DateTime.Parse("2000-05-06"), PersonGender = Gender.Male},
+        new Person() { Name = "Linda", DOB = DateTime.Parse("2005-01-09"), PersonGender = Gender.Female},
+        new Person() { Name = "Susan", DOB = DateTime.Parse("2008-07-12"), PersonGender = Gender.Other}
+    };
+}
+
+@functions{
+        //method
+        //we are using ? as it states that the value can be null
+        double? GetAge(DateTime? dateOfBirth)
+        {
+            if (dateOfBirth is not null)
+            {
+                return Math.Round((DateTime.Now - dateOfBirth.Value).TotalDays / 365.0);
+            }
+            else
+            {
+                return null;
+            }
+
+
+
+        }
+    }
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        @appTitle
+    </title>
+</head>
+<body>
+    <h1>Welcome</h1>
+
+    @for(int i = 0; i < people.Count; i++)
+{
+            Person person = people[i];
+            <div>
+                <h1>
+                    @person.Name
+                </h1>
+                <p>@person.DOB</p>
+                <p>@person.PersonGender</p>
+                <p>Age is : @GetAge(person.DOB)</p>
+            </div>
+}
+</body>
+</html>
