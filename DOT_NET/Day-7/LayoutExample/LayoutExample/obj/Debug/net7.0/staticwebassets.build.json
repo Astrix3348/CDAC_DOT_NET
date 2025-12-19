@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "/tpbJprGQe3poUFpqQ2jyEj/+lZZu+c41BdhQ8dTBUU=",
+  "Source": "LayoutExample",
+  "BasePath": "_content/LayoutExample",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "LayoutExample/wwwroot",
+      "Source": "LayoutExample",
+      "ContentRoot": "/Users/aakashgangwar/Desktop/Day-7/LayoutExample/LayoutExample/wwwroot/",
+      "BasePath": "_content/LayoutExample",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/aakashgangwar/Desktop/Day-7/LayoutExample/LayoutExample/wwwroot/StyleSheet.css",
+      "SourceId": "LayoutExample",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/aakashgangwar/Desktop/Day-7/LayoutExample/LayoutExample/wwwroot/",
+      "BasePath": "_content/LayoutExample",
+      "RelativePath": "StyleSheet.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/StyleSheet.css"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/aakashgangwar/Desktop/Day-7/LayoutExample/LayoutExample/wwwroot/StyleSheet.css",
+      "PackagePath": "staticwebassets/StyleSheet.css"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.LayoutExample.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.LayoutExample.props",
+      "PackagePath": "build\\LayoutExample.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.LayoutExample.props",
+      "PackagePath": "buildMultiTargeting\\LayoutExample.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.LayoutExample.props",
+      "PackagePath": "buildTransitive\\LayoutExample.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
