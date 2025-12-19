@@ -1,0 +1,29 @@
+﻿@using ExOfRazorView.Models
+
+
+@{
+    List<Person> people = new List<Person>()
+    {
+        new Person() { Name="aakash", PersonGender=Person.Gender.Male},
+        new Person() { Name="gargi", PersonGender=Person.Gender.Female},
+    };
+}
+
+
+<!Doctype html>
+<html>
+<head>
+    <title>NewApp</title>
+</head>
+<body>
+    <h1>Welcome</h1>
+    @foreach(var Person in people)
+{
+            <div>@Person.Name, @Person.PersonGender</div>
+}
+    @for(int i = 1; i <= 10; i++)
+{
+            <p>iterating @i</p>
+}
+</body>
+</html>
