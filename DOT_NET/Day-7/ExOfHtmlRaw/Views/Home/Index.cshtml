@@ -1,0 +1,36 @@
+﻿@using ExOfHtmlRaw.Models
+
+
+@{
+    string appTitle = "New App";
+    List<Person> people = new List<Person>()
+    {
+        new Person() {Name = "aakash", DOB = DateTime.Parse("2003-11-08"), PersonGender = Gender.Male}
+    };
+
+}
+
+@{
+    string alertMessage = $"<script>alert('{people.Count}people found')</script>";
+
+
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>@appTitle</title>
+</head>
+<body>
+    @Html.Raw(alertMessage)
+    @foreach (var person in people)
+{
+            <div>
+                <h2>Dets</h2>
+                <p>@person.Name</p>
+                <p>@person.DOB</p>
+                <p>@person.PersonGender</p>
+            </div>
+}
+</body>
+</html>
