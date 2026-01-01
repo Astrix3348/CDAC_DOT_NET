@@ -1,0 +1,22 @@
+﻿
+<center>
+    @using (Html.BeginForm("showDetails", "home", FormMethod.Post))
+    {
+        @Html.Label("PRN")
+        @Html.TextBox("s_prn")
+        <br />
+        <br />
+        @Html.Label("Name")
+        @Html.TextBox("s_name")
+        <br />
+        <br />
+        @Html.Label("Fees")
+        @Html.TextBox("s_fees")
+        <br />
+        <br />
+
+        <input type="submit" value="add student" />
+    }
+
+</center>
+
